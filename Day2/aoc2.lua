@@ -1,5 +1,5 @@
 var = 0
-safe_count = 0 -- Counter for safe lists
+safe_count = 0
 
 function creasing(b)
     if #b < 2 then
