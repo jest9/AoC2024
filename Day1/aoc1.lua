@@ -49,6 +49,9 @@ end
 
 local amount = {}
 
+
+-- this is pretty bad, use freq table
+
 for i, v in ipairs(list1) do
     local test = 0
     for y, x in ipairs(list2) do
