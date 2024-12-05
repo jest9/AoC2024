@@ -1,7 +1,7 @@
 # AoC2024
 Advent of Code 2024 Solutions (in lua)
 
-
+```
          v
         >X<
          A
@@ -19,3 +19,4 @@ Advent of Code 2024 Solutions (in lua)
         ###
         ###
         ### mh
+```
