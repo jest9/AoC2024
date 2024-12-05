@@ -1,5 +1,5 @@
 # AoC2024
-Advent of Code 2024 Solutions (in lua)
+advent of code 2024 solutions (in lua)
 
 ```
          v
