@@ -42,4 +42,33 @@ for _, v in ipairs(listdone) do
     val = val + v
 end
 
-print(val)
+
+
+
+-- Part 2
+
+local amount = {}
+
+for i, v in ipairs(list1) do
+    local test = 0
+    for y, x in ipairs(list2) do
+        if v == x then
+            test = test + 1
+        end
+    end
+    table.insert(amount, test)
+end
+
+local sum = {}
+
+local val = 0
+for i, v in ipairs(list1) do
+    local get = amount[i]
+    local res = v*get
+    table.insert(sum, res)
+end
+
+local val = 0
+for _, v in ipairs(sum) do
+    val = val + v
+end
