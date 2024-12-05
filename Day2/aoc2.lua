@@ -10,15 +10,15 @@ function creasing(b)
 
     for i = 1, #b - 1 do
         if b[i] < b[i + 1] then
-            -- Detect increasing
+            -- increasing
             if is_increasing == false then
-                return "borked" -- Switching from decreasing to increasing
+                return "borked"
             end
             is_increasing = true
         elseif b[i] > b[i + 1] then
-            -- Detect decreasing
+            -- decreasing
             if is_increasing == true then
-                return "borked" -- Switching from increasing to decreasing
+                return "borked"
             end
             is_increasing = false
         else
