@@ -40,6 +40,7 @@ function spacing(a)
     return "passed"
 end
 
+-- part 2
 
 function is_safe_with_one_removal(list)
     local n = #list
