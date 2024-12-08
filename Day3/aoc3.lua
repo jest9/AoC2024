@@ -1,10 +1,6 @@
 local numain = 0
 
 local file = io.open("list.txt", "r")
-if not file then
-    print("Error opening file!")
-    return
-end
 
 local files = file:read("*all")
 file:close()
