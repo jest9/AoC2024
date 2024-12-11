@@ -1,7 +1,9 @@
 local numain = 0
 mrclock = os.clock()
 
-local blinks = 25
+
+print("'ow many blinks!??")
+local blinks = io.read("*n")
 local t = {}
 
 function init()
@@ -37,7 +39,6 @@ for var = 1, blinks do
             
             if second_part == nil then
                second_part = 0
-               print("used")
             end
 
             table.insert(new_t, first_part)
@@ -54,5 +55,3 @@ end
 
 print(#t)
 print("Execution time is: " .. os.clock() - mrclock)
-
--- part 2 : HAHAHAHAHAHAHAHA WHAT
