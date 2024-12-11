@@ -61,10 +61,6 @@ function is_safe_with_one_removal(list)
 end
 
 file = io.open("list.txt", "r")
-if not file then
-    print("Error: Could not open file.")
-    return
-end
 
 local t = {}
 for line in file:lines() do
